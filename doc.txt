@@ -1,0 +1,3 @@
+1、用nextjs框架创建的react demo.
+2、整合了mockjs，安装mocker-api和mockjs，在项目根目录下新建 mock文件夹,新建index.js文件
+修改package.json文件添加"mock": "mocker mock/index"

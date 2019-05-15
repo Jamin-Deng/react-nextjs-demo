@@ -9815,22 +9815,21 @@ function () {
         switch (_context.prev = _context.next) {
           case 0:
             id = context.query.id;
-            debugger;
-            _context.next = 4;
+            _context.next = 3;
             return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()("https://api.tvmaze.com/shows/".concat(id));
 
-          case 4:
+          case 3:
             res = _context.sent;
-            _context.next = 7;
+            _context.next = 6;
             return res.json();
 
-          case 7:
+          case 6:
             show = _context.sent;
             return _context.abrupt("return", {
               show: show
             });
 
-          case 9:
+          case 8:
           case "end":
             return _context.stop();
         }
