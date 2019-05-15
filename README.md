@@ -3,11 +3,13 @@
 `参考博客：https://blog.csdn.net/mudontire/article/details/80980910`
 `next.js官网：https://nextjs.org/`
 `next.js官方教程：https://nextjs.org/learn`
+整合了mockjs
 	
 ## 安装
 1. git clone 代码到本地
 2. npm i 安装
 3. npm run devt 运行
+4. npm run mock 运行服务
 
 分别执行以下命令
 1. `git clone https://github.com/Jamin-Deng/react-nextjs-demo.git`
