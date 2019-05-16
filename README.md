@@ -4,6 +4,7 @@
 ##### next.js官网：https://nextjs.org/
 ##### next.js官方教程：https://nextjs.org/learn
 ##### 整合了mockjs
+##### 引入了antd并设置按需加载
 	
 ## 安装
 1. git clone 代码到本地
