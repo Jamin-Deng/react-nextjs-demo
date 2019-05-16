@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Button } from 'antd';
 
 const linkStyle = {
     marginRight: 15
@@ -23,6 +24,7 @@ class Header extends React.Component {
     render() {
         return (
             <div>
+                <Button type="primary">Primary</Button>
                 <Link href="/">
                     <a style={linkStyle}>Home</a>
                 </Link>

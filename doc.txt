@@ -3,3 +3,5 @@
 修改package.json文件添加"mock": "mocker mock/index"
 3、使用es6方法定义有状态组件（有生命周期），在生命周期里面进行数据请求（fetch）。
 4、在根目录的server.js里面添加devProxy和Set up the proxy，本地跨域请求。
+5、在nextjs脚手架引入antd，需要安装@zeit/next-css，配置next.config.js，安装babel-plugin-import，
+配置.babelrc。
