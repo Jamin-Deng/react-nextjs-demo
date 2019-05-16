@@ -1,6 +1,6 @@
 const About = () => (
     <div>
-        <p>This is About page</p>
+        关于
     </div>
 )
 

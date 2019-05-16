@@ -1,7 +1,7 @@
 const delay = require('mocker-api/utils/delay');
 const mockjs=require('mockjs');
 const data= {
-    'GET /api/user': {
+    'GET /api/menu': {
         id: 1,
         username: 'kenny',
         sex: 6
@@ -15,6 +15,25 @@ const data= {
             }
         )
     },
+    'GET /api/menu': mockjs.mock({
+        'data': [
+            {
+                id: 1,
+                name: '首页' ,
+                hre: '/home'
+            },
+            {
+                id: 2,
+                name: '关于',
+                hre: '/about'
+            },
+            {
+                id: 3,
+                name: '我们',
+                hre: '/user' 
+            }
+        ]
+    }),
     //可以直接使用mockjs生成mock数据
     'GET /api/mock':mockjs.mock({
         'list|10-100':1,
