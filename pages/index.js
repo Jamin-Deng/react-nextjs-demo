@@ -1,31 +1,30 @@
-import Link from 'next/link';
-import Layout from '../components/layout';
-import fetch from 'isomorphic-unfetch';
+import MySider from '../components/sider/sider';
+import { Layout, Breadcrumb } from 'antd';
 
-const Index = (props) => (
+const { Content } = Layout;
+
+const Index = () => (
     <Layout>
-        <h1>Marvel TV Shows</h1>
-        <ul>
-            {props.shows.map(({ show }) => {
-                return (
-                    <li key={show.id}>
-                        <Link as={`/p/${show.id}`} href={`/post?id=${show.id}`}>
-                            <a>{show.name}</a>
-                        </Link>
-                    </li>
-                );
-            })}
-        </ul>
+        <MySider />
+        <Layout style={{ padding: '0 24px 24px' }}>
+            <Breadcrumb style={{ margin: '16px 0' }}>
+                <Breadcrumb.Item>Home</Breadcrumb.Item>
+                <Breadcrumb.Item>List</Breadcrumb.Item>
+                <Breadcrumb.Item>App</Breadcrumb.Item>
+            </Breadcrumb>
+            <Content
+                style={{
+                background: '#fff',
+                padding: 24,
+                margin: 0,
+                minHeight: 280,
+                }}
+            >
+                Content
+            </Content>
+        </Layout>
     </Layout>
 );
-
-Index.getInitialProps = async function () {
-    const res = await fetch('https://api.tvmaze.com/search/shows?q=marvel');
-    const data = await res.json();
-    return {
-        shows: data
-    }
-}
 
 export default Index;
 

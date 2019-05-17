@@ -20,17 +20,17 @@ const data= {
             {
                 id: 1,
                 name: '首页' ,
-                hre: '/home'
+                hre: '/'
             },
             {
                 id: 2,
                 name: '关于',
-                hre: '/about'
+                hre: '/about?id=1'
             },
             {
                 id: 3,
                 name: '我们',
-                hre: '/user' 
+                hre: '/user?id=1' 
             }
         ]
     }),

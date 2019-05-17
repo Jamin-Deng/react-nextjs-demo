@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Layout, Menu } from 'antd';
+import { withRouter } from 'next/router';
 import '../header/header.css';
 
 const { Header } = Layout;
@@ -47,8 +48,10 @@ class MyHeader extends React.Component {
                     style={{ lineHeight: '64px' }}>
                     {this.state.menuList.map(( item ) => {
                         return (
-                            <Menu.Item key={item.id}>
-                                <Link href={item.hre}><a>{item.name}</a></Link>
+                            <Menu.Item key={item.id}
+                                onClick={(() => {this.props.router.push(item.hre)}).bind(this)}>
+                                {/* <Link href={item.hre}><a>{item.name}</a></Link> */}
+                                {item.name}
                             </Menu.Item>
                         );
                     })}
@@ -58,4 +61,4 @@ class MyHeader extends React.Component {
     }
 }
 
-export default MyHeader;
+export default withRouter(MyHeader);

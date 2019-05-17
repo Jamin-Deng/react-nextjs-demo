@@ -5,3 +5,5 @@
 4、在根目录的server.js里面添加devProxy和Set up the proxy，本地跨域请求。
 5、在nextjs脚手架引入antd，需要安装@zeit/next-css，配置next.config.js，安装babel-plugin-import，
 配置.babelrc。
+6、自定义_app.js组件来初始化页面,重写它来控制页面初始化。直接跳过nextjs默认创建的index。（改变page目录的路径
+结构，让page目录的文件进入_app.js后引其到homeContent.js组件，放在header下面，实现只在header下面跳转）
