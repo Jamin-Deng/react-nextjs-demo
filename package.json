@@ -16,6 +16,8 @@
     "@zeit/next-css": "^1.0.1",
     "antd": "^3.18.1",
     "babel-plugin-import": "^1.11.0",
+    "bizcharts": "^3.5.2",
+    "echarts": "^4.2.1",
     "express": "^4.16.4",
     "http-proxy-middleware": "^0.19.1",
     "isomorphic-unfetch": "^3.0.0",
@@ -23,6 +25,7 @@
     "mockjs": "^1.0.1-beta3",
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
   }
 }

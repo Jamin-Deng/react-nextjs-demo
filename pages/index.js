@@ -1,30 +1,23 @@
-import MySider from '../components/sider/sider';
-import { Layout, Breadcrumb } from 'antd';
+import React from 'react';
+import { withRouter } from 'next/router';
 
-const { Content } = Layout;
+class Index extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-const Index = () => (
-    <Layout>
-        <MySider />
-        <Layout style={{ padding: '0 24px 24px' }}>
-            <Breadcrumb style={{ margin: '16px 0' }}>
-                <Breadcrumb.Item>Home</Breadcrumb.Item>
-                <Breadcrumb.Item>List</Breadcrumb.Item>
-                <Breadcrumb.Item>App</Breadcrumb.Item>
-            </Breadcrumb>
-            <Content
-                style={{
-                background: '#fff',
-                padding: 24,
-                margin: 0,
-                minHeight: 280,
-                }}
-            >
-                Content
-            </Content>
-        </Layout>
-    </Layout>
-);
+    componentDidMount() {
+        //默认跳转到home
+        this.props.router.push('/home')
+    }
 
-export default Index;
+    render() {
+        return(
+            <div>lodding</div>
+        )
+    }
+
+}
+
+export default withRouter(Index);
 

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Layout, Menu, Icon } from 'antd';
 
 const { SubMenu } = Menu;
@@ -20,8 +21,8 @@ const  MySider = () => (
                 </span>
                 }
             >
-                <Menu.Item key="1">option1</Menu.Item>
-                <Menu.Item key="2">option2</Menu.Item>
+                <Menu.Item key="1"><Link href='/home/option1'><a>option1</a></Link></Menu.Item>
+                <Menu.Item key="2"><Link href='/home/option2'><a>option2</a></Link></Menu.Item>
                 <Menu.Item key="3">option3</Menu.Item>
                 <Menu.Item key="4">option4</Menu.Item>
             </SubMenu>
