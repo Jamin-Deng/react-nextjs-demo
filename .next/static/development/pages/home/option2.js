@@ -55,7 +55,7 @@ var Option2 = function Option2() {
 
 /***/ }),
 
-/***/ 13:
+/***/ 11:
 /*!***********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fhome%2Foption2&absolutePagePath=F%3A%5CCompanyProject%5Cdemo%5Creact-nextjs-demo%5Cpages%5Chome%5Coption2.js ***!
   \***********************************************************************************************************************************************************/
@@ -78,5 +78,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js"]]]);
+},[[11,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=option2.js.map

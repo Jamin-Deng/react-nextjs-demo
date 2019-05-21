@@ -1571,12 +1571,12 @@ function (_App) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_breadcrumb_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/breadcrumb/style/css */ "antd/lib/breadcrumb/style/css");
-/* harmony import */ var antd_lib_breadcrumb_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb_style_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/breadcrumb */ "antd/lib/breadcrumb");
-/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_breadcrumb_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/breadcrumb/style/css */ "antd/lib/breadcrumb/style/css");
+/* harmony import */ var antd_lib_breadcrumb_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb_style_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/breadcrumb */ "antd/lib/breadcrumb");
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/layout/style/css */ "antd/lib/layout/style/css");
 /* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
@@ -1598,41 +1598,22 @@ var Content = antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a.Content;
 var Home = function Home(props) {
   var Component = props.Component; //如果没有点击home下的子目录进入下面或者是传了自己的时候
 
-  if (_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(props).length == 0 || Component['name'] == 'Home') {
-    return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_sider_sider__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      style: {
-        padding: '0 24px 24px'
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      style: {
-        margin: '16px 0'
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, null, "\u9996\u9875"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, null, "subnav1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, null, "option1")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Content, {
-      style: {
-        background: '#fff',
-        padding: 24,
-        margin: 0,
-        minHeight: 280
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_option1__WEBPACK_IMPORTED_MODULE_7__["default"], null))));
-  } else {
-    return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_sider_sider__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      style: {
-        padding: '0 24px 24px'
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      style: {
-        margin: '16px 0'
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, null, "\u9996\u9875"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, null, "subnav1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_1___default.a.Item, null, "option1")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Content, {
-      style: {
-        background: '#fff',
-        padding: 24,
-        margin: 0,
-        minHeight: 280
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Component, null))));
-  }
+  return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_sider_sider__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    style: {
+      padding: '0 24px 24px'
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    style: {
+      margin: '16px 0'
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, null, "\u9996\u9875"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, null, "subnav1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, null, "option1")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Content, {
+    style: {
+      background: '#fff',
+      padding: 24,
+      margin: 0,
+      minHeight: 280
+    }
+  }, _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default()(props).length == 0 || Component['name'] == 'Home' ? react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_option1__WEBPACK_IMPORTED_MODULE_7__["default"], null) : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Component, null))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -1652,10 +1633,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_chart_echart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/chart/echart */ "./components/chart/echart.js");
 
-
+ // import BizChart from '../../components/chart/bizchart';
 
 var Option1 = function Option1() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_chart_echart__WEBPACK_IMPORTED_MODULE_1__["default"], null) // <div>11222</div>
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_chart_echart__WEBPACK_IMPORTED_MODULE_1__["default"], null) // <BizChart />
+  // <div>11222</div>
   ;
 };
 

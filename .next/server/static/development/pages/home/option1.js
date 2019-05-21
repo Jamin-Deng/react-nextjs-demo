@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -474,10 +474,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_chart_echart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/chart/echart */ "./components/chart/echart.js");
 
-
+ // import BizChart from '../../components/chart/bizchart';
 
 var Option1 = function Option1() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_chart_echart__WEBPACK_IMPORTED_MODULE_1__["default"], null) // <div>11222</div>
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_chart_echart__WEBPACK_IMPORTED_MODULE_1__["default"], null) // <BizChart />
+  // <div>11222</div>
   ;
 };
 
@@ -485,7 +486,7 @@ var Option1 = function Option1() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 6:
 /*!*************************************!*\
   !*** multi ./pages/home/option1.js ***!
   \*************************************/

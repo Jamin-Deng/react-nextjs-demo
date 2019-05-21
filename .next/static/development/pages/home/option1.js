@@ -48483,10 +48483,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_chart_echart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/chart/echart */ "./components/chart/echart.js");
 
-
+ // import BizChart from '../../components/chart/bizchart';
 
 var Option1 = function Option1() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_chart_echart__WEBPACK_IMPORTED_MODULE_1__["default"], null) // <div>11222</div>
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_chart_echart__WEBPACK_IMPORTED_MODULE_1__["default"], null) // <BizChart />
+  // <div>11222</div>
   ;
 };
 
@@ -48494,7 +48495,7 @@ var Option1 = function Option1() {
 
 /***/ }),
 
-/***/ 14:
+/***/ 12:
 /*!***********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fhome%2Foption1&absolutePagePath=F%3A%5CCompanyProject%5Cdemo%5Creact-nextjs-demo%5Cpages%5Chome%5Coption1.js ***!
   \***********************************************************************************************************************************************************/
@@ -48517,5 +48518,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[14,"static/runtime/webpack.js"]]]);
+},[[12,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=option1.js.map

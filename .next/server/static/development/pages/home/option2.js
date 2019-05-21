@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -114,7 +114,7 @@ var Option2 = function Option2() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 5:
 /*!*************************************!*\
   !*** multi ./pages/home/option2.js ***!
   \*************************************/
