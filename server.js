@@ -20,8 +20,8 @@ app.prepare()
 
         // Set up the proxy.
         if (dev && devProxy) {
-                const proxyMiddleware = require('http-proxy-middleware')
-                Object.keys(devProxy).forEach(function (context) {
+            const proxyMiddleware = require('http-proxy-middleware')
+            Object.keys(devProxy).forEach(function (context) {
                 server.use(proxyMiddleware(context, devProxy[context]))
             })
         }

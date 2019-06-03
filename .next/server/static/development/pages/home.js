@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -181,196 +181,6 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Echart);
-
-/***/ }),
-
-/***/ "./components/header/header.css":
-/*!**************************************!*\
-  !*** ./components/header/header.css ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./components/header/header.js":
-/*!*************************************!*\
-  !*** ./components/header/header.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/menu/style/css */ "antd/lib/menu/style/css");
-/* harmony import */ var antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu_style_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
-/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! antd/lib/layout/style/css */ "antd/lib/layout/style/css");
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _header_header_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../header/header.css */ "./components/header/header.css");
-/* harmony import */ var _header_header_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_header_header_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13__);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var Header = antd_lib_layout__WEBPACK_IMPORTED_MODULE_8___default.a.Header;
-var linkStyle = {
-  marginRight: 15
-};
-
-var MyHeader =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(MyHeader, _React$Component);
-
-  function MyHeader(props) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, MyHeader);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(MyHeader).call(this, props));
-    _this.state = {
-      menuList: []
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(MyHeader, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      // 注意需要执行一次 res.json() 方法才能获取数据
-      isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_13___default()('/api/menu').then(function (res) {
-        return res.json();
-      }).then(function (data) {
-        _this2.setState({
-          menuList: data.data
-        });
-      }).catch(function (e) {
-        return console.log('err', e);
-      });
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this3 = this;
-
-      return (// <div>
-        //     <Link href="/">
-        //         <a style={linkStyle}>Home</a>
-        //     </Link>
-        //     <Link href="/about">
-        //         <a style={linkStyle}>About</a>
-        //     </Link>
-        // </div>
-        react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Header, {
-          className: "header"
-        }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-          className: "logo"
-        }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
-          theme: "dark",
-          mode: "horizontal",
-          defaultSelectedKeys: ['1'],
-          style: {
-            lineHeight: '64px'
-          }
-        }, this.state.menuList.map(function (item) {
-          return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
-            key: item.id,
-            onClick: function () {
-              _this3.props.router.push(item.hre);
-            }.bind(_this3)
-          }, item.name);
-        })))
-      );
-    }
-  }]);
-
-  return MyHeader;
-}(react__WEBPACK_IMPORTED_MODULE_9___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_11__["withRouter"])(MyHeader));
-
-/***/ }),
-
-/***/ "./components/home/homeContent.js":
-/*!****************************************!*\
-  !*** ./components/home/homeContent.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/layout/style/css */ "antd/lib/layout/style/css");
-/* harmony import */ var antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout_style_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/layout */ "antd/lib/layout");
-/* harmony import */ var antd_lib_layout__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_layout__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _header_header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../header/header */ "./components/header/header.js");
-/* harmony import */ var _pages_home_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../pages/home/index */ "./pages/home/index.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
-
-
-
-
-
-
-
-var HomeContent = function HomeContent(props) {
-  var Component = props.Component; //如果是home目录或者子目录进入home页面
-
-  if (props.router.asPath.indexOf("home") != -1) {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      style: {
-        width: '100%',
-        height: '100%'
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_header_header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_pages_home_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      Component: Component
-    }));
-  } else {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      style: {
-        width: '100%',
-        height: '100%'
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_header_header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, null));
-  }
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_5__["withRouter"])(HomeContent));
 
 /***/ }),
 
@@ -485,17 +295,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "c
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "core-js/library/fn/object/assign");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
@@ -548,17 +347,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "core
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "core-js/library/fn/object/set-prototype-of");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/promise.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/library/fn/promise");
 
 /***/ }),
 
@@ -1006,18 +794,6 @@ module.exports = _typeof;
 
 /***/ }),
 
-/***/ "./node_modules/next/app.js":
-/*!**********************************!*\
-  !*** ./node_modules/next/app.js ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
-
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/client/link.js":
 /*!***********************************************!*\
   !*** ./node_modules/next/dist/client/link.js ***!
@@ -1271,224 +1047,6 @@ exports.default = Link;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_app.js":
-/*!**********************************************!*\
-  !*** ./node_modules/next/dist/pages/_app.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-var _promise = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js"));
-
-var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
-
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
-
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js"));
-
-var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js"));
-
-var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js"));
-
-var __importStar = void 0 && (void 0).__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
-var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importStar(__webpack_require__(/*! react */ "react"));
-
-var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "prop-types"));
-
-var utils_1 = __webpack_require__(/*! next-server/dist/lib/utils */ "next-server/dist/lib/utils");
-
-var router_1 = __webpack_require__(/*! next/router */ "next/router");
-
-var App =
-/*#__PURE__*/
-function (_react_1$Component) {
-  (0, _inherits2.default)(App, _react_1$Component);
-
-  function App() {
-    (0, _classCallCheck2.default)(this, App);
-    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(App).apply(this, arguments));
-  }
-
-  (0, _createClass2.default)(App, [{
-    key: "getChildContext",
-    value: function getChildContext() {
-      return {
-        router: router_1.makePublicRouterInstance(this.props.router)
-      };
-    } // Kept here for backwards compatibility.
-    // When someone ended App they could call `super.componentDidCatch`. This is now deprecated.
-
-  }, {
-    key: "componentDidCatch",
-    value: function componentDidCatch(err) {
-      throw err;
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          router = _this$props.router,
-          Component = _this$props.Component,
-          pageProps = _this$props.pageProps;
-      var url = createUrl(router);
-      return react_1.default.createElement(Container, null, react_1.default.createElement(Component, (0, _assign.default)({}, pageProps, {
-        url: url
-      })));
-    }
-  }], [{
-    key: "getInitialProps",
-    value: function (_ref) {
-      var Component = _ref.Component,
-          router = _ref.router,
-          ctx = _ref.ctx;
-
-      try {
-        return _promise.default.resolve(utils_1.loadGetInitialProps(Component, ctx)).then(function (pageProps) {
-          return {
-            pageProps: pageProps
-          };
-        });
-      } catch (e) {
-        return _promise.default.reject(e);
-      }
-    }
-  }]);
-  return App;
-}(react_1.Component);
-
-App.childContextTypes = {
-  router: prop_types_1.default.object
-};
-exports.default = App;
-
-var Container =
-/*#__PURE__*/
-function (_react_1$Component2) {
-  (0, _inherits2.default)(Container, _react_1$Component2);
-
-  function Container() {
-    (0, _classCallCheck2.default)(this, Container);
-    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Container).apply(this, arguments));
-  }
-
-  (0, _createClass2.default)(Container, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.scrollToHash();
-    }
-  }, {
-    key: "componentDidUpdate",
-    value: function componentDidUpdate() {
-      this.scrollToHash();
-    }
-  }, {
-    key: "scrollToHash",
-    value: function scrollToHash() {
-      var hash = window.location.hash;
-      hash = hash ? hash.substring(1) : false;
-      if (!hash) return;
-      var el = document.getElementById(hash);
-      if (!el) return; // If we call scrollIntoView() in here without a setTimeout
-      // it won't scroll properly.
-
-      setTimeout(function () {
-        return el.scrollIntoView();
-      }, 0);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return this.props.children;
-    }
-  }]);
-  return Container;
-}(react_1.Component);
-
-exports.Container = Container;
-var warnUrl = utils_1.execOnce(function () {
-  if (true) {
-    console.error("Warning: the 'url' property is deprecated. https://err.sh/zeit/next.js/url-deprecated");
-  }
-});
-
-function createUrl(router) {
-  // This is to make sure we don't references the router object at call time
-  var pathname = router.pathname,
-      asPath = router.asPath,
-      query = router.query;
-  return {
-    get query() {
-      warnUrl();
-      return query;
-    },
-
-    get pathname() {
-      warnUrl();
-      return pathname;
-    },
-
-    get asPath() {
-      warnUrl();
-      return asPath;
-    },
-
-    back: function back() {
-      warnUrl();
-      router.back();
-    },
-    push: function push(url, as) {
-      warnUrl();
-      return router.push(url, as);
-    },
-    pushTo: function pushTo(href, as) {
-      warnUrl();
-      var pushRoute = as ? href : null;
-      var pushUrl = as || href;
-      return router.push(pushRoute, pushUrl);
-    },
-    replace: function replace(url, as) {
-      warnUrl();
-      return router.replace(url, as);
-    },
-    replaceTo: function replaceTo(href, as) {
-      warnUrl();
-      var replaceRoute = as ? href : null;
-      var replaceUrl = as || href;
-      return router.replace(replaceRoute, replaceUrl);
-    }
-  };
-}
-
-exports.createUrl = createUrl;
-
-/***/ }),
-
 /***/ "./node_modules/next/link.js":
 /*!***********************************!*\
   !*** ./node_modules/next/link.js ***!
@@ -1498,70 +1056,6 @@ exports.createUrl = createUrl;
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
 
-
-/***/ }),
-
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_home_homeContent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/home/homeContent */ "./components/home/homeContent.js");
-
-
-
-
-
-
-
-
-
-
-var ExpressApp =
-/*#__PURE__*/
-function (_App) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ExpressApp, _App);
-
-  function ExpressApp(props) {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ExpressApp);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ExpressApp).call(this, props));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ExpressApp, [{
-    key: "render",
-    value: function render() {
-      var Component = this.props.Component;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_7__["Container"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "React-Nextjs-Demo"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
-        charSet: "utf-8"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("style", null, "#__next {height:100%};")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_home_homeContent__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        Component: Component
-      }));
-    }
-  }]);
-
-  return ExpressApp;
-}(next_app__WEBPACK_IMPORTED_MODULE_7___default.a);
-
-/* harmony default export */ __webpack_exports__["default"] = (ExpressApp);
 
 /***/ }),
 
@@ -1648,14 +1142,14 @@ var Option1 = function Option1() {
 
 /***/ }),
 
-/***/ 0:
-/*!****************************************!*\
-  !*** multi private-next-pages/_app.js ***!
-  \****************************************/
+/***/ 3:
+/*!***********************************!*\
+  !*** multi ./pages/home/index.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
+module.exports = __webpack_require__(/*! F:\CompanyProject\demo\react-nextjs-demo\pages\home\index.js */"./pages/home/index.js");
 
 
 /***/ }),
@@ -1759,17 +1253,6 @@ module.exports = require("core-js/library/fn/json/stringify");
 
 /***/ }),
 
-/***/ "core-js/library/fn/object/assign":
-/*!***************************************************!*\
-  !*** external "core-js/library/fn/object/assign" ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/assign");
-
-/***/ }),
-
 /***/ "core-js/library/fn/object/create":
 /*!***************************************************!*\
   !*** external "core-js/library/fn/object/create" ***!
@@ -1822,17 +1305,6 @@ module.exports = require("core-js/library/fn/object/keys");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/set-prototype-of");
-
-/***/ }),
-
-/***/ "core-js/library/fn/promise":
-/*!*********************************************!*\
-  !*** external "core-js/library/fn/promise" ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/promise");
 
 /***/ }),
 
@@ -1902,17 +1374,6 @@ module.exports = require("echarts/lib/echarts");
 
 /***/ }),
 
-/***/ "isomorphic-unfetch":
-/*!*************************************!*\
-  !*** external "isomorphic-unfetch" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-unfetch");
-
-/***/ }),
-
 /***/ "next-server/dist/lib/utils":
 /*!*********************************************!*\
   !*** external "next-server/dist/lib/utils" ***!
@@ -1921,17 +1382,6 @@ module.exports = require("isomorphic-unfetch");
 /***/ (function(module, exports) {
 
 module.exports = require("next-server/dist/lib/utils");
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
 
 /***/ }),
 
@@ -1991,4 +1441,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=_app.js.map
+//# sourceMappingURL=home.js.map

@@ -13,11 +13,13 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/home/option1": [
+    "/home": [
       "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/home/option2": [
+    "/user": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

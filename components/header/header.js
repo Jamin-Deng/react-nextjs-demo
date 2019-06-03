@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Layout, Menu } from 'antd';
 import { withRouter } from 'next/router';
 import '../header/header.css';
+import fetch from 'isomorphic-unfetch';
 
 const { Header } = Layout;
 

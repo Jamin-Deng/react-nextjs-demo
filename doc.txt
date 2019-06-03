@@ -1,11 +1,10 @@
 1、用nextjs框架创建的react demo。
-2、整合了mockjs，安装mocker-api和mockjs，在项目根目录下新建 mock文件夹,新建index.js文件
-修改package.json文件添加"mock": "mocker mock/index"。
-3、使用es6方法定义有状态组件（有生命周期），在生命周期里面进行数据请求（fetch）。
+2、整合了mockjs，安装mocker-api和mockjs，在项目根目录下新建 mock文件夹,新建index.js文件修改package.json文件,
+添加"mock": "mocker mock/index"。
+3、使用es6方法定义有状态组件（有生命周期），在生命周期里面进行fetch数据请求（import fetch from 'isomorphic-unfetch'）。
 4、在根目录的server.js里面添加devProxy和Set up the proxy，本地跨域请求。
-5、在nextjs脚手架引入antd，需要安装@zeit/next-css，配置next.config.js，安装babel-plugin-import，
-配置.babelrc。
+5、在nextjs脚手架引入antd，需要安装@zeit/next-css，配置next.config.js，安装babel-plugin-import，配置.babelrc。
 6、自定义_app.js组件来初始化页面,重写它来控制页面初始化。直接跳过nextjs默认创建的index。（改变page目录的路径
 结构，让page目录的文件进入_app.js后引其到homeContent.js组件，放在header下面，实现只在header下面跳转）。
 5、优化了路由结构。
-6、bizCharts有结构上的小问题，所以用了比较成熟的eCharts。
+6、bizCharts有结构上的小问题，所以用了比较成熟的ECharts。
